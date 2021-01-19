@@ -31,7 +31,6 @@
                this.txtIP_Address = new System.Windows.Forms.TextBox();
                this.label1 = new System.Windows.Forms.Label();
                this.groupBox1 = new System.Windows.Forms.GroupBox();
-               this.btnOpen = new System.Windows.Forms.Button();
                this.btnRecord = new System.Windows.Forms.Button();
                this.btnStop = new System.Windows.Forms.Button();
                this.btnStart = new System.Windows.Forms.Button();
@@ -59,7 +58,6 @@
                // 
                // groupBox1
                // 
-               this.groupBox1.Controls.Add(this.btnOpen);
                this.groupBox1.Controls.Add(this.btnRecord);
                this.groupBox1.Controls.Add(this.btnStop);
                this.groupBox1.Controls.Add(this.btnStart);
@@ -70,18 +68,9 @@
                this.groupBox1.TabStop = false;
                this.groupBox1.Text = "Controls";
                // 
-               // btnOpen
-               // 
-               this.btnOpen.Location = new System.Drawing.Point(482, 31);
-               this.btnOpen.Name = "btnOpen";
-               this.btnOpen.Size = new System.Drawing.Size(75, 23);
-               this.btnOpen.TabIndex = 10;
-               this.btnOpen.Text = "Open";
-               this.btnOpen.UseVisualStyleBackColor = true;
-               // 
                // btnRecord
                // 
-               this.btnRecord.Location = new System.Drawing.Point(326, 31);
+               this.btnRecord.Location = new System.Drawing.Point(438, 31);
                this.btnRecord.Name = "btnRecord";
                this.btnRecord.Size = new System.Drawing.Size(75, 23);
                this.btnRecord.TabIndex = 9;
@@ -91,7 +80,7 @@
                // 
                // btnStop
                // 
-               this.btnStop.Location = new System.Drawing.Point(161, 31);
+               this.btnStop.Location = new System.Drawing.Point(259, 31);
                this.btnStop.Name = "btnStop";
                this.btnStop.Size = new System.Drawing.Size(75, 23);
                this.btnStop.TabIndex = 8;
@@ -101,7 +90,7 @@
                // 
                // btnStart
                // 
-               this.btnStart.Location = new System.Drawing.Point(6, 31);
+               this.btnStart.Location = new System.Drawing.Point(61, 31);
                this.btnStart.Name = "btnStart";
                this.btnStart.Size = new System.Drawing.Size(75, 23);
                this.btnStart.TabIndex = 7;
@@ -147,7 +136,6 @@
           private System.Windows.Forms.TextBox txtIP_Address;
           private System.Windows.Forms.Label label1;
           private System.Windows.Forms.GroupBox groupBox1;
-          private System.Windows.Forms.Button btnOpen;
           private System.Windows.Forms.Button btnRecord;
           private System.Windows.Forms.Button btnStop;
           private System.Windows.Forms.Button btnStart;
