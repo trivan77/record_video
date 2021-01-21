@@ -53,7 +53,7 @@ namespace Record_CameraIP
             panel1.Controls.Add(_videoViewerWF1);
 
             //stream.Start();
-            _camera = IPCameraFactory.GetCamera("rtsp://sla:1123456@117.6.121.13:554/axis-media/media.amp", "sla", "1123456");
+            _camera = IPCameraFactory.GetCamera(txtIP_Address.Text, txtUser.Text, txtPass.Text);
             _connector.Connect(_camera.VideoChannel, _imageProvider);
             _camera.Start();
             _videoViewerWF1.Start();

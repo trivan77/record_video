@@ -37,6 +37,10 @@
                this.label2 = new System.Windows.Forms.Label();
                this.panel1 = new System.Windows.Forms.Panel();
                this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+               this.label3 = new System.Windows.Forms.Label();
+               this.txtPass = new System.Windows.Forms.TextBox();
+               this.label4 = new System.Windows.Forms.Label();
+               this.txtUser = new System.Windows.Forms.TextBox();
                this.groupBox1.SuspendLayout();
                this.SuspendLayout();
                // 
@@ -61,7 +65,7 @@
                this.groupBox1.Controls.Add(this.btnRecord);
                this.groupBox1.Controls.Add(this.btnStop);
                this.groupBox1.Controls.Add(this.btnStart);
-               this.groupBox1.Location = new System.Drawing.Point(15, 398);
+               this.groupBox1.Location = new System.Drawing.Point(16, 500);
                this.groupBox1.Name = "groupBox1";
                this.groupBox1.Size = new System.Drawing.Size(563, 70);
                this.groupBox1.TabIndex = 3;
@@ -114,11 +118,47 @@
                this.panel1.Size = new System.Drawing.Size(563, 310);
                this.panel1.TabIndex = 8;
                // 
+               // label3
+               // 
+               this.label3.AutoSize = true;
+               this.label3.Location = new System.Drawing.Point(12, 462);
+               this.label3.Name = "label3";
+               this.label3.Size = new System.Drawing.Size(53, 13);
+               this.label3.TabIndex = 10;
+               this.label3.Text = "Password";
+               // 
+               // txtPass
+               // 
+               this.txtPass.Location = new System.Drawing.Point(76, 459);
+               this.txtPass.Name = "txtPass";
+               this.txtPass.Size = new System.Drawing.Size(502, 20);
+               this.txtPass.TabIndex = 9;
+               // 
+               // label4
+               // 
+               this.label4.AutoSize = true;
+               this.label4.Location = new System.Drawing.Point(13, 414);
+               this.label4.Name = "label4";
+               this.label4.Size = new System.Drawing.Size(55, 13);
+               this.label4.TabIndex = 12;
+               this.label4.Text = "Username";
+               // 
+               // txtUser
+               // 
+               this.txtUser.Location = new System.Drawing.Point(77, 411);
+               this.txtUser.Name = "txtUser";
+               this.txtUser.Size = new System.Drawing.Size(502, 20);
+               this.txtUser.TabIndex = 11;
+               // 
                // Form1
                // 
                this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
                this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-               this.ClientSize = new System.Drawing.Size(593, 486);
+               this.ClientSize = new System.Drawing.Size(593, 582);
+               this.Controls.Add(this.label4);
+               this.Controls.Add(this.txtUser);
+               this.Controls.Add(this.label3);
+               this.Controls.Add(this.txtPass);
                this.Controls.Add(this.panel1);
                this.Controls.Add(this.label2);
                this.Controls.Add(this.groupBox1);
@@ -142,6 +182,10 @@
           private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
+          private System.Windows.Forms.Label label3;
+          private System.Windows.Forms.TextBox txtPass;
+          private System.Windows.Forms.Label label4;
+          private System.Windows.Forms.TextBox txtUser;
      }
 }
 
